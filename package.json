@@ -1,0 +1,23 @@
+{
+  "name": "backend-project-youtube",
+  "version": "1.0.0",
+  "description": "YouTube Backend mega Project",
+  "homepage": "https://github.com/Medhavi5/Backend-Project-YouTube#readme",
+  "bugs": {
+    "url": "https://github.com/Medhavi5/Backend-Project-YouTube/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Medhavi5/Backend-Project-YouTube.git"
+  },
+  "license": "ISC",
+  "author": "Medhavi Sharma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
