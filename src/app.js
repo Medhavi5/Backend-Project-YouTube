@@ -17,4 +17,17 @@ app.use(express.static('public'));
 
 app.use(cookieParser());
 
+// ROUTES IMPORT
+import userRouter from './routes/user.routes.js'
+
+// ROUTER DECLARATION
+app.use('/api/v1/users', userRouter);
+
+app.use((err, req, res, next) => {
+    return res.status(err.statusCode || 500).json({
+        success: false,
+        message: err.message || "Internal Server Error"
+    })
+})
+
 export {app}
